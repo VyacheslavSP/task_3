@@ -38,6 +38,7 @@ public class task_3 {
         tmp.addAll(color);
         System.out.println("новый массив "+color_new);
         ArrayList<String> removed=remove_list(tmp,color_new);
+        System.out.println("временный массив на удаление " + removed);
         ArrayList<String> color_correct=change_list(color, tmp);
         System.out.println("откорректированый 1 массив "+color_correct); 
         Collections.sort(color_correct);// в этом месте можно написать огромную кучу кода. отсортировать цвета как? 
